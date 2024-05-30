@@ -7,6 +7,7 @@ public class BankAccount {
     private String phoneNumber;
 
     public BankAccount() {
+        this("1234567", 500, "Bob", "bob@gmail.com", "15145155");
         System.out.println("BankAccount Constructor without parameters is called");
     }
 
@@ -18,6 +19,13 @@ public class BankAccount {
         this.phoneNumber = phoneNumber;
 
         System.out.println("BankAccount constructor with parameters is called");
+    }
+
+    public BankAccount(String customerName, String email, String phoneNumber) {
+        this("99999", 55.55, customerName, email, phoneNumber);
+//        this.customerName = customerName;
+//        this.email = email;
+//        this.phoneNumber = phoneNumber;
     }
 
     public String getAccountNumber() {
