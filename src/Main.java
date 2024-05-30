@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        BankAccount bankAccount = new BankAccount("12345", 500, "Bob", "bob@gmail.com", "15145155");
+        //BankAccount bankAccount = new BankAccount("12345", 500, "Bob", "bob@gmail.com", "15145155");
+        BankAccount bankAccount = new BankAccount();
 
 //        bankAccount.setAccountNumber("12345");
 //        bankAccount.setAccountBalance(1000);
